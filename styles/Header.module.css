@@ -1,0 +1,118 @@
+.header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  z-index: 100;
+  top: 0rem;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 2000;
+  background:#fff;
+}
+
+.header .topHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 3rem;
+}
+
+.header .logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.header h1 {
+  font-size: 2rem;
+  width: 25rem;
+  color: rgb(255, 255, 255);
+  margin-left: 1rem;
+}
+
+.header .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.header .navigation .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.header .navigation .link div {
+  padding: 0.3rem 1rem;
+  margin: 0 .5rem;
+  color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  font-size: 1rem;
+  background-color: #194b8c;
+}
+
+.header .menu {
+  position: fixed;
+  transition: left 0.3s linear;
+  top: 0rem;
+  background-color: #fff;
+  width: 25rem;
+  /* border: .1rem solid #000; */
+  padding: 1rem 0rem;
+  /* border-top-left-radius: 1rem; */
+  /* border-top-right-radius: 1rem; */
+  height: 100%;
+  transition: all 0.2s linear;
+}
+
+.header .menu .close {
+  position: absolute;
+  right: 0;
+  margin: 1rem;
+  z-index: 2;
+}
+
+.header .menuIcon {
+  color: #fff;
+}
+
+.header .menu .menuList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 100%;
+  padding-top: 6rem;
+  transition: all 0.2s linear;
+}
+
+.header .menu .menuList a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  margin: 0rem 0;
+  padding: 1.5rem 2rem;
+  transition: all 0.2s linear;
+}
+
+.header .menu .menuList a:hover {
+  background-color: #194b8c;
+  color: #fff;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .header .mobileNav {
+    display: none;
+  }
+
+
+ }

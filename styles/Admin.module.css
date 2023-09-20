@@ -1,0 +1,133 @@
+.container {
+  min-height: 100vh;
+  height: 100%;
+  padding: 2rem 2rem;
+}
+
+.add {
+  margin: 1rem 0;
+}
+
+.add button,
+.add a {
+  background-color: #194b8c;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+}
+
+.add button:hover,
+.add a:hover {
+  background-color: #194b8c;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+}
+
+.table {
+  border: 0.2rem solid #194b8c;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tableHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+  background-color: #194b8c;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  color: #fff;
+}
+
+.tableBox li:first-child {
+  width: 10%;
+}
+
+.tableBox li:nth-child(2) {
+  width: 25%;
+}
+
+.tableBox li,
+.tableBox2 li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 0.5rem;
+}
+
+.tableBox li .edit {
+  background-color: royalblue;
+}
+
+.tableBox li button {
+  margin: 0 0.2rem;
+  background-color: #194b8c;
+  color: #fff;
+}
+
+.tableBox li button:not(.edit):hover {
+  background-color: #194b8c;
+}
+
+.tableBox {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  list-style: none;
+  justify-content: space-around;
+  border: 0.2rem solid #194b8c;
+  padding: 1rem;
+  margin: 1rem 0;
+  height: 100%;
+}
+
+.tableBox li .photo {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  /* border: .1rem solid grey; */
+  /* border-radius: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.tableBox2 {
+  border: 2px solid #194b8c;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.tableBox2 li {
+  background-color: #ddd;
+  margin: 0.5rem 0;
+}
+
+.tableBox2 li:hover {
+  background-color: #194b8c;
+  margin: 0.5rem 0;
+  color: #fff;
+}
+
+.tableBox2 li:hover .tableHead, .tableBox2 li:hover .tableBody{
+  color: #fff;
+}
+
+.tableHead {
+  padding: 1rem 2rem;
+  width: 30rem;
+  color: #194b8c;
+  font-weight: bold;
+}
+
+.tableBody {
+  padding: 0 2rem;
+  width: 50%;
+  word-wrap: break-word;
+}

@@ -1,0 +1,133 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5rem 0 5rem 0;
+  padding: 0 2rem;
+}
+
+.contactContainer .contactForm,
+.contactDetails {
+  margin: 2rem 0 0 0;
+  background-color: #fff;
+  padding: 2rem 3rem;
+  box-shadow: 0 0 1rem 0.1rem rgba(58, 58, 58, 0.157);
+  border-radius: 1rem;
+}
+
+.contactForm .contactInputContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 80%;
+}
+.contactForm .contactInputContainer2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 10px 0;
+  width: 80%;
+}
+
+.contactInputContainer label,
+.contactInputContainer2 label {
+  font-size: 1.1rem;
+  margin-bottom: 0rem;
+  position: absolute;
+  top: 0.4rem;
+  left: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.2s linear;
+}
+
+.contactInputContainer input,
+.contactInputContainer2 input {
+  padding: 0.5rem 1rem;
+  border: 0.13rem solid #aaa;
+}
+
+.contactInputContainer textarea,
+.contactInputContainer2 textarea {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 0.13rem solid #aaa;
+}
+
+.contactDetails {
+  list-style: none;
+}
+
+.contactDetails h2 {
+  font-size: 2.5rem;
+  text-decoration: underline 0.2rem;
+}
+
+.contactDetails li {
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.pointsBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pointInnerBox {
+  margin: 0 1.5rem;
+}
+
+.pointItem {
+  background-color: rgb(153, 20, 120);
+  color: #fff;
+  margin: 1rem 0;
+  padding: 2rem 1rem;
+  box-shadow: 0 0 1rem 0.1rem rgba(153, 20, 120, 0.6);
+}
+
+.contactInputContainer input:focus,
+.contactInputContainer textarea:focus,
+.contactInputContainer2 input:focus,
+.contactInputContainer2 textarea:focus {
+  outline: none;
+}
+
+.contactForm button.send {
+  background-color: #194b8c;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.4rem 15px;
+  /* width: 10%; */
+  height: fit-content;
+}
+
+.contactInputContainer:focus-within label,
+.contactInputContainer2:focus-within label{
+  position: absolute;
+  top: -1.2rem;
+  transition: all 0.2s linear;
+  font-size: 1.2rem;
+}
+
+.contactForm {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem 0 0 0;
+}
+
+.loginContainer{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginForm{
+  border: .2rem solid #194b8c;
+  padding: 2rem 0;
+  max-width: 90%;
+}
