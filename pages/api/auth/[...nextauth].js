@@ -10,7 +10,7 @@ export default NextAuth({
     maxAge: 30 * 24 * 60 * 60,
     updateAge: 24 * 60 * 60,
   },
-  secret: "yBEbxG7/mEQ/MBr4zPmBF3F0krxtA6L86072HqYsFDg=",
+  secret: "",
   jwt: {
     maxAge: 60 * 60 * 24 * 30,
   },
