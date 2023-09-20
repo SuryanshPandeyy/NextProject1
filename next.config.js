@@ -23,7 +23,7 @@ module.exports = (phase) => {
 
       env: {
         MONGODB_URI:
-          "mongodb+srv://mgtechnicals:%40VIGYANdarshan123@cluster0.qnjonjg.mongodb.net/mod-dev?retryWrites=true&w=majority",
+          "",
       },
     };
   } else {
@@ -38,7 +38,7 @@ module.exports = (phase) => {
 
       env: {
         MONGODB_URI:
-          "mongodb+srv://mgtechnicals:%40VIGYANdarshan123@cluster0.qnjonjg.mongodb.net/mod-dev?retryWrites=true&w=majority",
+          "",
       },
     };
   }
